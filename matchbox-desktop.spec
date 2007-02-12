@@ -3,7 +3,7 @@
 %bcond_with	sn	# startup notification support
 #
 Summary:	Matchbox Desktop environment
-Summary(pl):	odowisko Matchbox Desktop
+Summary(pl.UTF-8):   艢rodowisko Matchbox Desktop
 Name:		matchbox-desktop
 Version:	0.9.1
 Release:	1
@@ -23,12 +23,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Matchbox Desktop environment.
 
-%description -l pl
-odowisko Matchbox Desktop.
+%description -l pl.UTF-8
+艢rodowisko Matchbox Desktop.
 
 %package devel
 Summary:	Header files for Matchbox Desktop modules
-Summary(pl):	Pliki nag丑wkowe dla modu丑w Matchbox Desktop
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe dla modu艂贸w Matchbox Desktop
 Group:		X11/Development/Libraries
 Requires:	libmatchbox-devel >= 1.5
 # doesn't require base
@@ -36,8 +36,8 @@ Requires:	libmatchbox-devel >= 1.5
 %description devel
 Header files for Matchbox Desktop modules.
 
-%description devel -l pl
-Pliki nag丑wkowe dla modu丑w Matchbox Desktop.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe dla modu艂贸w Matchbox Desktop.
 
 %prep
 %setup -q
