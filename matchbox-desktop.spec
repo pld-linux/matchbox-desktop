@@ -10,7 +10,7 @@ Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://projects.o-hand.com/matchbox/sources/matchbox-desktop/0.9/%{name}-%{version}.tar.bz2
-# Source0-md5:	8e8ba0ee170a9ac78fdc583b00ccf76b
+# Source0-md5:	3335a30b1a1aacfb39f23b505254765c
 Patch0:		%{name}-desktop.patch
 URL:		http://projects.o-hand.com/matchbox/
 BuildRequires:	libmatchbox-devel >= 1.5
