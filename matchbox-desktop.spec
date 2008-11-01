@@ -17,6 +17,7 @@ BuildRequires:	pkgconfig
 %{?with_sn:BuildRequires:	startup-notification-devel}
 BuildRequires:	zlib-devel
 Requires:	libmatchbox >= 1.5
+Obsoletes:	matchbox-desktop-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
