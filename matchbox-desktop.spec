@@ -1,12 +1,12 @@
 #
 # Conditional build:
-%bcond_with	sn	# startup notification support
+%bcond_without	sn	# startup notification support
 #
 Summary:	Matchbox Desktop environment
 Summary(pl.UTF-8):	Środowisko Matchbox Desktop
 Name:		matchbox-desktop
 Version:	2.0
-Release:	1
+Release:	1.1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://matchbox-project.org/sources/matchbox-desktop/2.0/%{name}-%{version}.tar.bz2
